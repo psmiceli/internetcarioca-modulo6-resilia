@@ -14,8 +14,8 @@
 
 ```
 antes, crie o banco de dados:
-npm run migrate
-npm run seed
+- npm run migrate
+- npm run seed
 
 após...
 

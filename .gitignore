@@ -1,0 +1,43 @@
+# Ignorar arquivos gerados automaticamente
+node_modules/
+build/
+dist/
+
+# Ignorar arquivos de configuração
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Ignorar arquivos de teste
+/coverage/
+
+# Ignorar arquivos de ambiente
+.env
+
+# Ignorar arquivos de editor
+.vscode/
+.idea/
+
+# Ignorar extensões padrão
+*.log
+*.swp
+*.swo
+*.bak
+*.pid
+*.pid.lock
+
+# Ignorar bibliotecas comuns
+jquery.js
+jquery.min.js
+react.js
+react.min.js
+vue.js
+vue.min.js
+angular.js
+angular.min.js
+
+# Ignorar pastas de dependências
+node_modules/
+yarn/

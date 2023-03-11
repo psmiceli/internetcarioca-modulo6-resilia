@@ -1,0 +1,20 @@
+.containerAnimacaotxt1{
+  max-width: 100%;
+}
+
+.containerAnimacaotxt1 h1{
+  font-size: clamp(1.2em, 2em + 1vw, 2.8em);
+  font-weight: 700;
+  color: #3C89D6;
+}
+
+.containerAnimacaotxt1 h2{
+  font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+
+.containerAnimacaotxt1 p{
+  width: 90%;
+}

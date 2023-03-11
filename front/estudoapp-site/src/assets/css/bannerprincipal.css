@@ -1,0 +1,116 @@
+.ContainerBanner {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 3px #e0e0e0;
+  margin-bottom: 0px;
+  margin-top: 80px;
+}
+
+.ContainerBanner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../src/img/banner1.png");
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: slideShow 16s ease-in-out infinite;
+}
+
+.pessoasBanner {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../src/img/pessoasBanner.png");
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.logoBannerIndex {
+  width: auto;
+  height: 160px;
+}
+
+@media (max-width: 1000px) {
+  .ContainerBanner {
+    height: 200px;
+    margin-top: 80px;
+  }
+
+  .pessoasBanner {
+    height: 200px;
+  }
+
+  .logoBannerIndex {
+    width: auto;
+    height: 90px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .ContainerBanner {
+    height: 160px;
+    margin-top: 40px;
+    margin-top: 70px;
+  }
+
+  .pessoasBanner {
+    height: 160px;
+  }
+
+  .logoBannerIndex {
+    width: auto;
+    height: 74px;
+  }
+
+  
+}
+
+@keyframes slideShow {
+  0% {
+    background-image: url("../src/img/banner1.png");
+  }
+  33.33% {
+    background-image: url("../src/img/banner2.png");
+  }
+  66.67% {
+    background-image: url("../src/img/banner3.png");
+  }
+  100% {
+    background-image: url("../src/img/banner1.png");
+  }
+}
+
+/*BOTÃO CONEXÃO*/
+
+
+
+.botaoConexao{
+  width: 100%;
+  height: 46px;
+  background-color:#8ABBED;
+  color: white;
+  font-size: 18px;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.botaoConexao:hover{
+  background-color:#0e7ae6;
+    cursor: pointer;
+    color: greenyellow;
+}

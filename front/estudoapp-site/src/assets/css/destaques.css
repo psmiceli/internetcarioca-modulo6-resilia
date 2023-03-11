@@ -1,0 +1,47 @@
+.colunaDestaque{
+  height: auto !important;
+}
+
+.cardDestaque{
+  height: 100% !important;
+  position: relative;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  min-height: 220px !important;
+}
+
+.cardText {
+  flex-grow: 1;
+  margin-bottom: 40px;
+}
+
+.botao-destaque {
+  margin-top: auto !important;
+}
+
+@media (max-width: 600px) {
+  .colunaDestaque{
+    height: auto !important;
+  }
+  
+  .cardDestaque{
+    height: 100% !important;
+    position: auto;
+  }
+  
+  .cardbody {
+    min-height: auto;
+  }
+  
+  .cardtext {
+    flex-grow: 1;
+    margin-bottom: 5px;
+  }
+  
+  .botaodestaque {
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,88 @@
+/*MENU*/
+
+.conexaoHeader {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+
+.conexaoHeader:hover {
+  cursor: pointer;
+  color: greenyellow;
+}
+
+.botaoConexaoMenu {
+  background-color: #3C89D6;
+  color: #fff;
+  border: 2px solid #3C89D6;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.botaoConexaoMenu:hover {
+  background-color: #3C89D6;
+  color: #4CAF50;
+}
+
+.botaoConexaoMenu.conectado {
+  color: #fff;
+}
+
+.botaoConexaoMenu.conectado:hover {
+  color: #4CAF50;
+}
+
+.botaoConexao{
+  background-color: black;
+  color: black;
+  border: 2px solid #3C89D6;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.botaoConexao:hover {
+  background-color: #3C89D6;
+  color: #4CAF50;
+}
+
+.botaoConexao.conectado2 {
+  color: #fff;
+  background-color: #4CAF50;
+}
+
+.botaoConexao.conectado2:hover {
+  color: #4CAF50;
+}
+
+
+
+.iconeConexaoHeader {
+  
+  height: 30px;
+  margin-right: 14px;
+  margin-top:-10px;
+}
+
+.iconeConexaoHeader:hover {
+  color:greenyellow;
+}
+
+.ms-auto {
+  text-align: center;
+}
+
+a.nav-link {
+  font-size: 20px;
+  margin-left: 0px;
+}
+
+/*
+.active.nav-link {}
+*/

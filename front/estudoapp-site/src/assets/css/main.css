@@ -1,0 +1,42 @@
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  background-color: #eeefee;
+}
+
+
+.botaosair{
+  background-color: #3C89D6;
+  color: #fff;
+  border: 2px solid #3C89D6;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-left: 1px solid #aae0f4af;
+}
+
+
+.botaosair:hover{
+  background-color: #3C89D6;
+  color: red;
+}
+
+.register{
+  background-color: #3C89D6;
+  color: #fff;
+  border: 2px solid #3C89D6;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-left: 1px solid #aae0f4af;
+}
+
+
+.register:hover{
+  background-color: #3C89D6;
+  color: blue;
+}

@@ -13,7 +13,7 @@
 <h2>back-end:</h2>
 
 ```
-antes, crie o banco de dados:
+antes, crie e popule o banco de dados:
 - npm run migrate
 - npm run seed
 
